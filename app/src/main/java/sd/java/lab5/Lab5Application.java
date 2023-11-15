@@ -75,7 +75,7 @@ public class Lab5Application {
         return replacement;
     }
 
-    public static Text replaceWordsOfLength(Text text, int length, Text replacement) {
+    private static Text replaceWordsOfLength(Text text, int length, Text replacement) {
         // Check for null or invalid inputs
         if (text == null || length <= 0 || replacement == null) {
             return text;

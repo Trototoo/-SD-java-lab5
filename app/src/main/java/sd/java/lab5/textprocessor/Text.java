@@ -27,7 +27,7 @@ public class Text {
         }
     }
 
-    public static List<String> splitIntoSentences(String text) {
+    private static List<String> splitIntoSentences(String text) {
         List<String> sentences = new ArrayList<>();
         StringBuilder currentSentence = new StringBuilder();
         boolean withinWord = false;
